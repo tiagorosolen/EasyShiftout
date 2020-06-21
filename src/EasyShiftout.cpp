@@ -130,10 +130,6 @@ void EasyShiftout::shiftRegister()
 	// Run the shift once for every 595
 	for(int j = 0; j < c595Count_; j++)
 	{
-		Serial.print(" -> shift register ");
-		Serial.print(c595Count_ -j -1);
-		Serial.print(" value: ");
-		Serial.println(registers[c595Count_ -j -1], DEC);
 	  	// The values are shifted backwards
 	  	// The First 595 (connected to uC) must be the last one
 		for (int i = 7; i >= 0; i--)  {
