@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For EasyShiftout
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EasyShiftout	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin			KEYWORD2
+writePort		KEYWORD2
+writeRegister	KEYWORD2
+readPort		KEYWORD2
+readRegister	KEYWORD2
+flush			KEYWORD2
+
+#######################################
+# Constants 
+#######################################
